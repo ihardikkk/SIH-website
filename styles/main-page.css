@@ -264,7 +264,7 @@ body{
     width: 90%;
     background-color: rgb(229, 229, 229);
 
-    border-radius: 20px;
+    border-radius: 10px;
     transition: .3s;
   }
 }
