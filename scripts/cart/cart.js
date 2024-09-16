@@ -1,4 +1,4 @@
-document.querySelector('.cart-js').
+/*document.querySelector('.cart-js').
   addEventListener('click', () => {
-    
-  })
+
+  })*/
