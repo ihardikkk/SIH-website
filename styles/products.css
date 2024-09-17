@@ -1,0 +1,156 @@
+main{
+
+  font-size: 12px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+
+}
+
+.product-grid{
+  width:1300px;
+  display: grid;
+
+  grid-template-columns: 1fr 1fr;
+  column-gap: 15px;
+  row-gap: 20px;
+
+  justify-items: center;
+  align-items: center;
+
+  margin: 0 30px;
+}
+
+@media (max-width:860px){
+
+  .product-grid{
+
+    grid-template-columns: 1fr;
+  }
+
+  .product-div{
+    font-family: 'Roboto';
+    width: 420px;
+  
+  }
+}
+
+@media (min-width: 860px) and (max-width:1600px){
+
+  .product-grid{
+    grid-template-columns: 1fr 1fr;   
+  }
+
+  .product-div{
+    font-family: 'Roboto';
+  }
+}
+
+@media (min-width:1600px){
+
+  .product-grid{
+    grid-template-columns: 1fr 1fr 1fr ;    
+  }
+}
+
+.product-div{
+  font-family: 'Roboto';
+  height: 120px;
+
+  display: flex;
+  justify-content: space-between;
+
+  border: 1px solid lightgrey;
+  border-radius: 6px;
+
+  padding: 10px;
+}
+
+.item-div{
+  display: flex;
+  align-items: center;
+  
+}
+
+.image-div{
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  overflow: hidden;
+
+  margin-right: 15px;
+}
+
+.item-image{
+  width: 80px;
+  
+  cursor: pointer;
+}
+
+.item-details-main-div{
+
+  min-width: 200px;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.item-details{
+  margin-right: 15px;
+}
+
+.item-name{
+  font-size: 13px;
+  color: rgb(81, 81, 81);
+  font-weight: 600;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.item-price{
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.buying-options{
+
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.buy-now ,.add-to-cart{
+  
+  width: 80px;
+  height: 30px;
+
+  font-weight: 600;
+
+  border: 1px solid;
+  border-radius: 4px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  cursor: pointer;
+}
+
+.buy-now{
+  background-color: chocolate;
+  color: beige;
+}
+
+.add-to-wishlist{
+
+  width: 17px;
+  cursor: pointer;
+}

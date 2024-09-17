@@ -4,6 +4,11 @@ nav{
   opacity: 0;
 }
 
+.nav-js{
+  width: 0;
+  height: 0;
+}
+
 .nav-styles{
   position: fixed;
   height: 100vh;
