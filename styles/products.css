@@ -30,9 +30,10 @@ main{
 
   .product-div{
     font-family: 'Roboto';
-    width: 420px;
+    width: 390px;
   
   }
+
 }
 
 @media (min-width: 860px) and (max-width:1600px){
@@ -74,6 +75,7 @@ main{
 
 .image-div{
   height: 100%;
+  width: 80px;
 
   display: flex;
   align-items: center;
@@ -86,7 +88,7 @@ main{
 }
 
 .item-image{
-  width: 80px;
+  width: 100%;
   
   cursor: pointer;
 }
