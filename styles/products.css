@@ -44,6 +44,7 @@ main{
 
   .product-div{
     font-family: 'Roboto';
+    width: 400px;
   }
 }
 
@@ -51,6 +52,11 @@ main{
 
   .product-grid{
     grid-template-columns: 1fr 1fr 1fr ;    
+  }
+
+  .product-div{
+    font-family: 'Roboto';
+    width: 400px;
   }
 }
 
