@@ -36,7 +36,7 @@ main{
 
 }
 
-@media (min-width: 860px) and (max-width:1600px){
+@media (min-width: 860px) and (max-width:1300px){
 
   .product-grid{
     grid-template-columns: 1fr 1fr;   
@@ -47,7 +47,7 @@ main{
   }
 }
 
-@media (min-width:1600px){
+@media (min-width:1300px){
 
   .product-grid{
     grid-template-columns: 1fr 1fr 1fr ;    
