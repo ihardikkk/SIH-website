@@ -153,11 +153,21 @@ main{
   justify-content: center;
 
   cursor: pointer;
+
+  user-select: none;
+}
+
+.buy-now:hover, .add-to-cart:hover{
+  background-image: linear-gradient(rgb(0 0 0/8%) 0 0);
+}
+
+.buy-now:active, .add-to-cart:active{
+  opacity: .9;
 }
 
 .buy-now{
-  background-color: chocolate;
-  color: beige;
+  background-color: rgb(221, 111, 33);
+  color: white;
 }
 
 .add-to-wishlist{
